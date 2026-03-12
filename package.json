@@ -1,0 +1,22 @@
+{
+  "name": "omnivertex-digital",
+  "version": "2.0.0",
+  "description": "OmniVertex Digital - Service Marketplace Platform",
+  "scripts": {
+    "install:all": "cd client && npm install && cd ../server && npm install",
+    "server": "cd server && npm start",
+    "client": "cd client && npm start",
+    "build": "cd client && npm run build"
+  },
+  "keywords": [
+    "digital services",
+    "marketplace",
+    "web development",
+    "hosting"
+  ],
+  "author": "OmniVertex",
+  "license": "MIT",
+  "dependencies": {
+    "stripe": "^20.4.0"
+  }
+}
