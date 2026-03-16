@@ -17,6 +17,8 @@
   "author": "OmniVertex",
   "license": "MIT",
   "dependencies": {
+    "mongodb": "^7.1.0",
+    "mongoose": "^9.3.0",
     "stripe": "^20.4.0"
   }
 }

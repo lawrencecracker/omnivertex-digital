@@ -21,7 +21,12 @@ app.use(helmet());
 // Middleware
 app.use(cors());
 app.use(express.json());
-app.use(express.static(path.join(__dirname, '../public')));
+app.use(express.static(path.join(__dirname, 'public')));
+</xai:function_call}
+
+
+<xai:function_call name="edit_file">
+<parameter name="path">server/src/index.js
 
 // Services Data with pricing for payments
 const services = [
